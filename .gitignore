@@ -1,35 +1,71 @@
-# Зависимости
+```
+# Dependencies
 node_modules/
-
-# Сборка
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
+target/
+.gradle/
 
-# Локальные файлы
-.env
-.env.local
-.env.*.local
-
-# Логи
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System
 .DS_Store
 Thumbs.db
 
-# Временные файлы
-*.tmp
-*.temp
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
-# Кэш
-.cache/
-.parcel-cache/
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
